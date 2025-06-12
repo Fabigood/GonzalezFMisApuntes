@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:Notes.Models"
              x:Class="Notes.Views.NotePage"
-             Title=""
+             Title="Fabio Gonzalez"
              x:DataType="models:Note">
     <VerticalStackLayout Spacing="10" Margin="5">
         <Editor x:Name="TextEditor"
