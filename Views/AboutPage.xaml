@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AboutPage"
+             Title="About">
+
+    <VerticalStackLayout Spacing="10" Margin="20">
+        <Image Source="icon_about.png"
+               HeightRequest="100"
+               HorizontalOptions="Center"
+               SemanticProperties.Description="Personal icon" />
+
+        <Label Text="Fabio Gonzalez"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Label Text=""
+               FontSize="16"
+               HorizontalTextAlignment="Center" />
+
+        <Button Text=""
+                Clicked="LearnMore_Clicked"
+                HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
