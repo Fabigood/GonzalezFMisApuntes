@@ -15,11 +15,11 @@
                FontAttributes="Bold"
                HorizontalOptions="Center" />
 
-        <Label Text=""
+        <Label Text="Soy Estudiante de Software en la UDLA"
                FontSize="16"
                HorizontalTextAlignment="Center" />
 
-        <Button Text=""
+        <Button Text="APP de Aputes Maui"
                 Clicked="LearnMore_Clicked"
                 HorizontalOptions="Center" />
     </VerticalStackLayout>
